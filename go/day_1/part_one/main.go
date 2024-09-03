@@ -16,7 +16,7 @@ func check(e error) {
 }
 
 func main() {
-	filePath := filepath.Join("real.input")
+	filePath := filepath.Join("..", "real.input")
 	file, err := os.Open(filePath)
 	check(err)
 
